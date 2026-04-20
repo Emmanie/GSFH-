@@ -1,0 +1,26 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b3b6f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e5a9e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#grad4)"/>
+  
+  <!-- Icône livre/éducation -->
+  <g transform="translate(600, 380)">
+    <rect x="-90" y="-70" width="180" height="140" rx="10" fill="rgba(255,255,255,0.3)"/>
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="rgba(255,255,255,0.5)" stroke-width="4"/>
+    <line x1="-60" y1="-40" x2="-20" y2="-40" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <line x1="-60" y1="-20" x2="-20" y2="-20" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <line x1="-60" y1="0" x2="-20" y2="0" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <line x1="20" y1="-40" x2="60" y2="-40" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <line x1="20" y1="-20" x2="60" y2="-20" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <line x1="20" y1="0" x2="60" y2="0" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+  </g>
+  
+  <!-- Texte -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">Atelier Educatif</text>
+  <text x="600" y="600" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle">Programme de soutien scolaire</text>
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)" text-anchor="middle">GSFH - Education pour tous</text>
+</svg>

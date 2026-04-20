@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSFH — Groupe de Soutien pour la Fraternité Haïtienne</title>
+    <meta name="description" content="Site officiel du GSFH. Organisation à but non lucratif engagée pour la fraternité, la paix et le développement communautaire en Haïti.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<!-- ── HEADER ────────────────────────────────────────── -->
+<header id="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Logo GSFH">
+            <div class="logo-text">
+                <span class="logo-name">GSFH</span>
+                <span class="logo-tag">Fraternité • Paix • Développement</span>
+            </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html#dons" class="btn btn-primary btn-sm">Faire un don</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ── MOBILE NAV ─────────────────────────────────────── -->
+<div class="mobile-nav" id="mobile-nav">
+    <div class="mobile-nav-inner">
+        <button id="mobile-nav-close" aria-label="Fermer" style="background:none;border:none;font-size:1.5rem;cursor:pointer;align-self:flex-end;margin-bottom:8px;">✕</button>
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="projects.html">Projets</a>
+        <a href="gallery.html">Galerie</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#dons" class="btn btn-primary" style="margin-top:16px;text-align:center;">Faire un don</a>
+    </div>
+</div>
+
+<main>
+
+<!-- ── HERO ──────────────────────────────────────────── -->
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <div class="hero-tag" data-reveal>
+                <i data-lucide="star" style="width:14px;height:14px;"></i>
+                Organisation officielle · Fondée en 2015
+            </div>
+            <h1 data-reveal data-delay="1">Construire ensemble la Fraternité Haïtienne</h1>
+            <p class="lead" data-reveal data-delay="2">Le GSFH est une organisation à but non lucratif engagée pour l'entraide, la paix et le développement communautaire en Haïti et à l'international.</p>
+            <div class="hero-actions" data-reveal data-delay="3">
+                <a href="projects.html" class="btn btn-primary">Voir nos projets</a>
+                <a href="about.html" class="btn btn-outline">Notre mission</a>
+            </div>
+        </div>
+        <div class="hero-img" data-reveal>
+            <div class="hero-carousel">
+                <img src="pictures/WhatsApp%20Image%202026-03-16%20at%2019.26.10.jpeg" alt="GSFH Action 1">
+                <img src="pictures/WhatsApp%20Image%202026-03-16%20at%2016.44.28.jpeg" alt="GSFH Action 2">
+                <img src="pictures/WhatsApp%20Image%202026-03-16%20at%2016.50.46.jpeg" alt="GSFH Action 3">
+                <img src="pictures/whatsapp%20image%202026-01-15%20at%2005.42.38.jpeg" alt="GSFH Action 4">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── STATS ──────────────────────────────────────────── -->
+<section class="stats-strip">
+    <div class="container stats-grid">
+        <div class="stat-item" data-reveal>
+            <h3>2015</h3>
+            <p>Année de fondation</p>
+        </div>
+        <div class="stat-item" data-reveal data-delay="1">
+            <h3>100+</h3>
+            <p>Jeunes accompagnés / an</p>
+        </div>
+        <div class="stat-item" data-reveal data-delay="2">
+            <h3>6</h3>
+            <p>Axes d'intervention</p>
+        </div>
+        <div class="stat-item" data-reveal data-delay="3">
+            <h3>17 000$</h3>
+            <p>Budget projet prioritaire</p>
+        </div>
+    </div>
+</section>
+
+<!-- ── AXES D'INTERVENTION ───────────────────────────── -->
+<section>
+    <div class="container">
+        <div class="section-title" data-reveal>
+            <h2>Nos axes d'intervention</h2>
+            <p>Une approche multidimensionnelle pour un impact durable dans nos communautés.</p>
+        </div>
+        <div class="grid-3">
+            <div class="card" data-reveal data-delay="1">
+                <div class="card-icon"><i data-lucide="book-open"></i></div>
+                <h3>Éducation</h3>
+                <p>Appui à la jeunesse, sensibilisation et accompagnement éducatif pour un avenir meilleur.</p>
+            </div>
+            <div class="card" data-reveal data-delay="2">
+                <div class="card-icon"><i data-lucide="users"></i></div>
+                <h3>Social</h3>
+                <p>Actions communautaires, entraide et soutien aux familles les plus vulnérables.</p>
+            </div>
+            <div class="card" data-reveal data-delay="3">
+                <div class="card-icon"><i data-lucide="music"></i></div>
+                <h3>Culture</h3>
+                <p>Promotion de la fraternité à travers des activités culturelles et artistiques.</p>
+            </div>
+            <div class="card" data-reveal data-delay="1">
+                <div class="card-icon"><i data-lucide="trending-up"></i></div>
+                <h3>Économie</h3>
+                <p>Initiatives favorisant l'autonomie financière et le développement économique local.</p>
+            </div>
+            <div class="card" data-reveal data-delay="2">
+                <div class="card-icon"><i data-lucide="trophy"></i></div>
+                <h3>Sport</h3>
+                <p>Cohésion sociale et mobilisation de la jeunesse par les valeurs du sport.</p>
+            </div>
+            <div class="card" data-reveal data-delay="3">
+                <div class="card-icon"><i data-lucide="handshake"></i></div>
+                <h3>Partenariats</h3>
+                <p>Collaboration avec les ONG, institutions et la diaspora pour maximiser l'impact.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── PROJET URGENT ──────────────────────────────────── -->
+<section class="urgent-band">
+    <div class="container">
+        <div class="section-title" style="color:white;" data-reveal>
+            <h2 style="color:white;">Projet prioritaire en cours</h2>
+            <p style="color:rgba(255,255,255,.7);">Un besoin urgent pour les jeunes les plus vulnérables de Cité Soleil.</p>
+        </div>
+        <div class="project-card" data-reveal>
+            <div class="project-img" style="background-image:url('pictures/WhatsApp%20Image%202026-03-16%20at%2016.50.46.jpeg');"></div>
+            <div class="project-info">
+                <span class="tag" style="background:rgba(245,158,11,.15);color:var(--accent);">🚨 Urgent</span>
+                <h3>Centre de Réintégration Sociale et Psychologique</h3>
+                <p>Création d'un centre d'accompagnement psychosocial pour les jeunes marginalisés, victimes de traumatismes et en situation d'exclusion sociale à Cité Soleil.</p>
+                <div class="project-meta">
+                    <div class="project-stat">
+                        <strong>17 000 USD</strong>
+                        <span>Budget annuel</span>
+                    </div>
+                    <div class="project-stat">
+                        <strong>15–30 ans</strong>
+                        <span>Public cible</span>
+                    </div>
+                    <div class="project-stat">
+                        <strong>100+</strong>
+                        <span>Jeunes / an</span>
+                    </div>
+                </div>
+                <div style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap;">
+                    <a href="projects.html" class="btn btn-accent">Voir le projet</a>
+                    <a href="contact.html" class="btn btn-white-outline">Soutenir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────── -->
+<section class="cta-band">
+    <div class="container" data-reveal>
+        <h2>Prêt à faire la différence ?</h2>
+        <p>Rejoignez-nous dans notre mission pour transformer des vies et renforcer la fraternité en Haïti.</p>
+        <div class="cta-actions">
+            <a href="contact.html" class="btn btn-white">Devenir partenaire</a>
+            <a href="gallery.html" class="btn btn-white-outline">Voir nos actions</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ── FOOTER ─────────────────────────────────────────── -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2>GSFH</h2>
+                <p>Groupe de Soutien pour la Fraternité Haïtienne — Ensemble pour un avenir solidaire et prospère en Haïti.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="gallery.html">Galerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Boston, Cité Soleil, Haïti</li>
+                    <li>gsfhhaiti26@gmail.com</li>
+                    <li><a href="contact.html">Formulaire de contact</a></li>
+                    <li><a href="contact.html#dons">Faire un don</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 GSFH. Tous droits réservés.</p>
+            <p>Fraternité • Paix • Développement communautaire</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
